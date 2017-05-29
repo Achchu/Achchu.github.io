@@ -1,0 +1,204 @@
+ .main {
+   background: url(images/wood8.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
+    }
+    
+.home{
+  background-color: rgba(255,255,255,0.7);
+
+  margin-top: 100px;
+  text-align: center;
+ 
+
+  
+  box-shadow: 9px 9px 3px black;
+  border: 3px solid #862d2d;
+
+}
+
+.home h1{
+ color: rgba(120,0,0,1);
+ text-shadow: 2px 2px 4px #000000;
+}
+
+.home p{
+  font-family: 'Play', sans-serif;
+  font-size: 20px;
+  line-height: 40px;
+  color: #391313;
+  text-shadow: 1px 1px 1px #d27979;
+}
+
+.home:hover{
+  box-shadow: 1px 1px 2px  #330000;
+}
+
+ 
+
+
+ .nav.navbar-nav.navbar-right li a {
+    color:#df9f9f;
+    text-shadow: 2px 2px 2px #000000;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+   
+}
+    
+    .nav.navbar-nav.navbar-right li a:hover{
+      color: #f9ecec;
+
+    }
+    
+    .navbar{
+      height: 45px;
+       background: url(images/nav4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  border-radius: 10px;
+  box-shadow:  4px 4px 4px 4px #000000;
+
+    
+    }
+
+    .navbar:hover{
+      box-shadow: 4px 4px 4px 4px #ffffff;
+    }
+
+
+ .navbar-right{
+  margin-right: 40px;
+ }
+
+
+
+
+.modal {
+  text-align: center;
+
+}
+
+@media screen and (min-width: 768px) { 
+  .modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+.modal-backdrop {
+  background-color: #000000;
+}
+
+.modal-content{
+  width: 800px;
+  height: 500px;
+    background: url(images/wooden.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+.modal-body
+{
+
+}
+.modal.fade.modal-white .modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+
+.modal-footer{
+  height: 25px;
+
+}
+.modal.fade.modal-white .modal-footer{border:none}
+
+.modal-footer .btn.btn-close{
+ position: absolute;
+right:    0;
+bottom:   0;
+ 
+  width: 90px;
+  height: 40px;
+  background-color:  #260d0d;
+  color: #d27979;
+   box-shadow:3px 3px 3px #000000;
+   font-family: 'Aldrich', sans-serif;
+
+}
+
+.modal-footer .btn.btn-close:hover{
+  box-shadow:1px 1px 1px #000000;
+}
+
+.about-me {
+ 
+ text-align: center;
+
+}
+
+.about-me p{
+  padding: 10px;
+  font-family: 'Aldrich', sans-serif;
+  font-size: 17px;
+  text-align: left;
+  line-height: 40px;
+
+  color: #130606;
+  text-shadow: 1px 1px 1px #d27979;
+}
+
+.btn.btn-whatever.active{
+
+  background-color: #000000;
+  
+  margin: 10px;
+  width: 120px;
+  height: 50px;
+  box-shadow:4px 4px 4px #000000;
+    background: url(images/wood4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  color:#bf4040;
+  text-shadow: 1px 1px 1px  #130606;
+  font-size: 17px;
+  font-family: 'Aldrich', sans-serif;
+
+}
+#buttons{
+  
+   padding: 40px;
+
+}
+
+.btn.btn-whatever.active:hover{
+
+  box-shadow:1px 1px 1px #000000;
+}
+
+.btn.btn-whatever.active.more{
+  width: 260px;
+}

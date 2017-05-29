@@ -1,35 +1,139 @@
 <!DOCTYPE html>
 <html>
+<!-- http://i.imgur.com/alfiBEP.jpg -->
 <head>
   <title>Akhila</title>
-  <style>
-    body {
-      text-align: center;
-      background: url("http://dash.ga.co/assets/anna-bg.png");
-      background-size: cover;
-      background-position: center;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 22px;
-    }
-    input {
-      border: 0;
-      padding: 10px;
-      font-size: 18px;
-    }
-    input[type="submit"] {
-      background: red;
-      color: white;
-    }
-  </style>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+   
+<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<body>
-  <img src="http://i.imgur.com/alfiBEP.jpg" style="width:200px;height:200px;border-radius:150px;border:5px solid white">
-  <p>Hi! I'm Akhila, Full stack developer. Say hello!</p>
-  <input type="email" placeholder="Your email">
-  <input type="submit">
+
+<body class="main">
+
+<div class="container">
+	 <div class="row">
+	 		
+	 		<div class="col-md-6">
+	 		<img src="images/barbie.jpg" style="width:300px;height:300px;border-radius:50px;border:5px solid rgb(128, 0, 0);position: absolute;margin-left: 40px; margin-top: 100px;">
+	 		</div>
+	 		
+	 		<div class="col-md-6 home">
+	 		      <span class="glyphicon glyphicon-tags" style="margin-left: -295px; font-size: 50px;position: absolute; -ms-transform: rotate(280deg); /* IE 9 */
+    -webkit-transform: rotate(280deg); /* Safari */
+    transform: rotate(280deg); color: brown;"></span>
+	 			<h1>HEY, THERE..! </h1>
+	 			<p><strong>Good to see you here!</strong>
+	 				My name is <strong>AKHILA HEGDE</strong> from Bengaluru. I am a Web Developer and occasionally Designer. I am a B.E(CSE) graduate and
+	 				 was working as a tester in one of the MNCs. But I wanted to see me more on the creative and productive side. So I started learnig Web designing and developing. Coding gives me an immense pleasure and keeps me joyful. I am curious to dig deep into development.  
+	 			</p>
+	 		</div>  
+	 </div>
+	
+</div>
+<div class="navigation">
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" style="margin-left: 40px;font-family: 'Permanent Marker', cursive; font-size: 25px;color:#ecc6c6;
+  text-shadow: 3px 3px 3px  #000000;" href="#">AKHILA HEGDE</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+    
+      <li data-toggle="modal" data-target="#myModal"><a href="#">Coder Me</a></li>
+      <li data-toggle="modal" data-target="#socialModal"><a href="#">Social Me</a></li>
+    
+    </ul>
+  </div>
+</nav>
+</div>
+
+
+<div class="modal fade modal-white" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+           <div class="modal-body">
+         		<div class="row">
+  					<div class="col-md-6 about-me">
+  						<p>I can code both back-and and front-end. I finished a small todo-app
+  						project(which is available on my Github profile). Learning Node.js, Webpack and ReachJs thoroughly. I will be coding on some of the front-end examples using JavaScript(including libraries),HTML and CSS. Here is the list of some(right side), I am currently working on.
+
+	 					</p>
+  					</div>
+  					<div class="col-md-6 about-me" id="buttons">
+  						<button type="button" class="btn btn-whatever active">Node.js</button>
+  						<button type="button" class="btn btn-whatever active">ReactJs</button>
+  						<button type="button" class="btn btn-whatever active">JavaScript</button>
+  						<button type="button" class="btn btn-whatever active">HTML</button>
+
+  						<button type="button" class="btn btn-whatever active">CSS</button>
+  						<button type="button" class="btn btn-whatever active">Bootstrap</button>
+  						<button type="button" class="btn btn-whatever active">MongoDB</button>
+  						<button type="button" class="btn btn-whatever active">Ajax</button>
+  					</div>
+</div>
+        </div>
+
+        <div class="modal-footer">
+         
+         <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+ </div>
+
+
+  
+<div class="modal fade modal-white" id="socialModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+           <div class="modal-body">
+         		<div class="row">
+  					<div class="col-md-6 about-me">
+  						<p>In my leisure time I love to do gardening. I like playing badminton. I write less and read more. I would rather read Harry Potter Novel than watch its movie.
+						It builds my imagination. I am an active reader of Quora. I have been to most of the visiting places of Karnataka and willing to travel more. I like to meet different people and converse on their ideas. I love to here you too :).    
+	 					</p>
+  					</div>
+  					<div class="col-md-6 about-me" id="buttons">
+  						<button type="button" class="btn btn-whatever active" onclick="location.href = 'https://linkedin.com/in/akhihegde06';" >LinkedIn</button>
+  						<button type="button" class="btn btn-whatever active" onclick="location.href = 'https://github.com/Achchu';">Github</button>
+  						<button type="button" class="btn btn-whatever active" onclick="location.href = 'https://twitter.com/akhihegde12';">Twitter</button>
+  						<button type="button" class="btn btn-whatever active" onclick="location.href = 'https://www.quora.com/profile/Akhila-Hegde-2';">Quora</button>
+  						<button type="button" class="btn btn-whatever active more" id="email">akhihegde12@gmail.com</button>
+  					</div>
+</div>
+        </div>
+
+        <div class="modal-footer">
+         
+         <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+ </div>
+
+
+
+
+
+
+ <script type="text/javascript">
+
+
+ </script>
 </body>
 
 </html>
