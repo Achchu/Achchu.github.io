@@ -28,7 +28,7 @@
 
 .home p{
   font-family: 'Play', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 40px;
   color: #391313;
   text-shadow: 1px 1px 1px #d27979;
@@ -158,14 +158,25 @@ bottom:   0;
 }
 
 .about-me p{
-  padding: 10px;
+  padding: 5px;
   font-family: 'Aldrich', sans-serif;
   font-size: 17px;
   text-align: left;
-  line-height: 40px;
+  line-height: 30px;
 
   color: #130606;
   text-shadow: 1px 1px 1px #d27979;
+}
+
+.about-me p a{
+
+  text-decoration:none;
+   color: #130606;
+  text-shadow: 1px 1px 1px #d27979;
+ }
+
+.about-me p a:hover{
+  color: #993333;
 }
 
 .btn.btn-whatever.active{
@@ -188,11 +199,11 @@ bottom:   0;
   font-family: 'Aldrich', sans-serif;
 
 }
-#buttons{
+/*#buttons{
   
-   padding: 40px;
+   padding: 20px;
 
-}
+} */
 
 .btn.btn-whatever.active:hover{
 
@@ -201,4 +212,20 @@ bottom:   0;
 
 .btn.btn-whatever.active.more{
   width: 260px;
+}
+
+.blockquote-whatever{
+
+  
+  border-left: none;
+  text-align: center;
+  font-family: 'Kelly Slab', cursive;
+  font-size:20px;
+   color:#130606;
+  text-shadow: 1px 1px 1px  #130606;
+}
+
+.blockquote-whatever footer{
+  font-size: 15px;
+  color: #130606;
 }
