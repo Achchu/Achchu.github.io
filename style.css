@@ -112,7 +112,10 @@ repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2
   background-color: #000000;
 }
 
-.modal-content{
+
+
+
+/*.modal-content{
   width: 800px;
   height: 500px;
     background: url(images/wooden.jpeg) no-repeat center center fixed; 
@@ -121,7 +124,18 @@ repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2
   -o-background-size: cover;
   background-size: cover;
  }
+ */
 
+.modal-content {
+background-color: hsl(2, 57%, 40%);
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px; 
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+}
 .modal-body
 {
 
@@ -172,8 +186,9 @@ bottom:   0;
   line-height: 30px;
 
   color: #130606;
-  text-shadow: 1px 1px 1px #d27979;
+  
 }
+/*text-shadow: 1px 1px 1px #d27979; */
 
 .about-me p a{
 
